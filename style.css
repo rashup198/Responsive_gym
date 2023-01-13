@@ -2,6 +2,9 @@
 margin: 0px;
 padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 #navbar{
     position: relative;
@@ -147,7 +150,9 @@ padding: 0px;
 
   }
   .box{
-    transition: all 0.3s ease-in-out;
+ 
+
+    transition: all 0.3s 0.3s ease-in-out ;
   }
   
   /* clients section */
