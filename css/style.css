@@ -35,6 +35,8 @@ padding: 0px;
 
 }
 
+/* styling navbar: list section */
+
 #navbar ul{
     display: flex;
     flex-direction: row;
@@ -53,7 +55,7 @@ padding: 0px;
 #navbar ul  a{
     color: white ;
     border-radius: 20px;
-    padding: 3px 22px;
+    padding: 2px 11px;
     list-style: none;
     text-decoration: none;
 }
@@ -62,6 +64,6 @@ padding: 0px;
 
     background-color: gray;
     color: white ;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
