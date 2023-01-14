@@ -145,14 +145,14 @@ html{
     /* transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease-in-out; */
-    transform: rotate(360deg);
+    transform: rotate(720deg);
     box-shadow: 7px 10px 9px #a22e2e;
 
   }
   .box{
  
 
-    transition: all 0.3s 0.3s ease-in-out ;
+    transition: all 0.2s 0.3s ease-in-out ;
   }
   
   /* clients section */
@@ -228,10 +228,26 @@ html{
 
 /* footer section */
  
-
+.footer-parent{
+    background-color: #07b38a;
+}
 footer{
     background-color: black;
     color: white;
+  }
+
+  .parent-socials{
+    margin-left: 595px;
+  }
+  .socials{
+   display: inline-block;
+   align-items: center;
+   margin-left: 65px;
+
+  }
+  .socials img{
+    height: 55px;
+    padding: 12px;
   }
 
 /* utili class */
