@@ -237,8 +237,9 @@ footer{
   }
 
   .parent-socials{
-    margin-left: 595px;
-  }
+    margin-left: 500px;
+}
+  
   .socials{
    display: inline-block;
    align-items: center;
